@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Licores ARG - Catálogo</title>
+  <meta name="description" content="Catálogo de bebidas premium. Filtra por categoría y busca tu producto favorito.">
+  <meta name="keywords" content="licores, bebidas, catálogo, whisky, gin, vodka, vinos, aperitivos, especialidades">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="logo nav__link">Licores ARG</a>
+      <ul class="nav__list">
+        <li><a href="index.html" class="nav__link">Inicio</a></li>
+        <li>
+          <a href="cart.html" class="nav__link" style="position:relative;">
+            <span style="display:inline-block;vertical-align:middle;">🛒</span>
+            <span id="cart-count" style="background:var(--accent);color:#181818;border-radius:50%;padding:0 7px;font-size:0.9em;position:absolute;top:-8px;right:-12px;min-width:22px;text-align:center;">0</span>
+            <span class="sr-only">Carrito</span>
+          </a>
+        </li>
+        <li><a href="about.html" class="nav__link">Sobre nosotros</a></li>
+        <li><a href="contact.html" class="nav__link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="filters">
+      <select id="category-filter" class="filter__select" aria-label="Filtrar por categoría">
+        <option value="all">Todas las categorías</option>
+        <option value="Aperitivos">Aperitivos</option>
+        <option value="Especialidades">Especialidades</option>
+        <option value="Gin">Gin</option>
+        <option value="Licores">Licores</option>
+        <option value="Vinos">Vinos</option>
+        <option value="Vodka">Vodka</option>
+        <option value="Whisky">Whisky</option>
+        <option value="Fernet">Fernet</option>
+        <option value="Jarabe">Jarabe</option>
+      </select>
+      <input type="text" id="search-input" class="filter__input" placeholder="Buscar por nombre..." aria-label="Buscar por nombre">
+      <button id="search-btn" class="filter__button">Buscar</button>
+    </section>
+    <section id="products" class="products-grid" aria-live="polite">
+      <!-- Productos generados por JS -->
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2025 Licores ARG. Todos los derechos reservados.</p>
+  </footer>
+  <script src="js/main.js" defer></script>
+  <script>
+    function updateCartCount() {
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      let count = cart.reduce((acc, item) => acc + (item.qty || 1), 0);
+      var el = document.getElementById('cart-count');
+      if (el) el.textContent = count;
+    }
+    window.addEventListener('storage', updateCartCount);
+    document.addEventListener('DOMContentLoaded', updateCartCount);
+    // Actualizar contador tras agregar producto
+    window.addEventListener('cart-updated', updateCartCount);
+  </script>
+</body>
+</html>

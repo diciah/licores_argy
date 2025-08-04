@@ -1,7 +1,7 @@
 // Carrusel de banner principal para Licores ARG
 // Lee las imágenes desde banners.csv (pre-cargadas en un array)
 const bannerImages = [
-  { src: '/images/vodkas/vodkas-evolution-new-style.jpg' },
+  { src: '../images/vodkas/vodkas-evolution-new-style.jpg' },
   { src: '/images/especialidades/linea-especialidades.jpg' },
   { src: '/images/vodkas/vodkas-new-style.jpg' },
   { src: '/images/whiskys/whiskys-goucester.jpg' },

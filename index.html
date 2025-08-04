@@ -7,33 +7,13 @@
   <meta name="description" content="Tienda online de bebidas premium. Descubre nuestro catálogo y arma tu pedido fácilmente.">
   <meta name="keywords" content="licores, bebidas, tienda, whisky, gin, vodka, vinos, aperitivos, especialidades">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
   <header class="header">
     <nav class="nav">
-      <a href="index.html" class="logo nav__link">Licores ARG</a>
-      <ul class="nav__list">
-        <li><a href="catalog.html" class="nav__link">Catálogo</a></li>
-        <li style="position:relative;">
-          <a href="#" id="cart-popup-btn" class="nav__link" style="position:relative;">
-            <span style="display:inline-block;vertical-align:middle;">🛒</span>
-            <span id="cart-count" style="background:var(--accent);color:#181818;border-radius:50%;padding:0 7px;font-size:0.9em;position:absolute;top:-8px;right:-12px;min-width:22px;text-align:center;">0</span>
-            <span class="sr-only">Carrito</span>
-          </a>
-          <div id="cart-popup" role="dialog" aria-modal="true" aria-label="Carrito" tabindex="-1" style="display:none;position:absolute;right:0;top:40px;z-index:1000;background:var(--card-bg);color:var(--main-fg);box-shadow:0 4px 16px #0008;border-radius:8px;width:320px;max-width:90vw;padding:1rem;outline:none;transition:transform 0.2s,opacity 0.2s;">
-            <button id="cart-popup-close" aria-label="Cerrar" style="position:absolute;top:8px;right:8px;background:none;border:none;font-size:1.5em;color:var(--accent);cursor:pointer;">&times;</button>
-            <div id="cart-popup-content">
-              <!-- Productos del carrito -->
-            </div>
-            <div style="text-align:right;margin-top:1em;display:flex;gap:0.5em;justify-content:flex-end;align-items:center;">
-              <button id="cart-popup-empty" class="btn-main" style="background:#ff4d4d;color:#fff;">Vaciar</button>
-              <a href="cart.html" class="btn-main">Ir al carrito</a>
-            </div>
-          </div>
-        </li>
-        <li><a href="about.html" class="nav__link">Sobre nosotros</a></li>
-        <li><a href="contact.html" class="nav__link">Contacto</a></li>
-      </ul>
+      <div class="nav__logo-wrap"><a href="index.html" class="logo nav__link">Licores ARG</a></div><div class="nav__menu-wrap"><ul class="nav__list"><li><a href="catalog.html" class="nav__link">Catálogo</a></li><li style="position:relative;"><a href="#" id="cart-popup-btn" class="nav__link" style="position:relative;"><span style="display:inline-block;vertical-align:middle;">🛒</span><span id="cart-count" style="background:var(--accent);color:#181818;border-radius:50%;padding:0 7px;font-size:0.9em;position:absolute;top:-8px;right:-12px;min-width:22px;text-align:center;">0</span><span class="sr-only">Carrito</span></a><div id="cart-popup" role="dialog" aria-modal="true" aria-label="Carrito" tabindex="-1" style="display:none;position:absolute;right:0;top:40px;z-index:1000;background:var(--card-bg);color:var(--main-fg);box-shadow:0 4px 16px #0008;border-radius:8px;width:320px;max-width:90vw;padding:1rem;outline:none;transition:transform 0.2s,opacity 0.2s;"><button id="cart-popup-close" aria-label="Cerrar" style="position:absolute;top:8px;right:8px;background:none;border:none;font-size:1.5em;color:var(--accent);cursor:pointer;">&times;</button><div id="cart-popup-content"><!-- Productos del carrito --></div><div style="text-align:right;margin-top:1em;display:flex;gap:0.5em;justify-content:flex-end;align-items:center;"><button id="cart-popup-empty" class="btn-main" style="background:#ff4d4d;color:#fff;">Vaciar</button><a href="cart.html" class="btn-main">Ir al carrito</a></div></div></li><li><a href="about.html" class="nav__link">Sobre nosotros</a></li><li><a href="contact.html" class="nav__link">Contacto</a></li></ul></div>
     </nav>
   </header>
   <main>
@@ -42,11 +22,37 @@
       <p>Tu tienda online de bebidas premium. Explora nuestro catálogo y arma tu pedido.</p>
       <a href="catalog.html" class="btn-main">Ver catálogo</a>
     </section>
+    <!-- Carrusel de banner principal -->
+    <div id="banner-carousel-container">
+      <!-- El carrusel se insertará aquí dinámicamente por slider.js -->
+    </div>
+    <!-- ...el resto del contenido... -->
+    <section class="reviews-section">
+      <h2>Opiniones de nuestros clientes</h2>
+      <reviews-carousel></reviews-carousel>
+    </section>
+    <section class="contact-section">
+      <h2>Contacto</h2>
+      <form id="contact-form" action="https://formspree.io/f/xyzwbwer" method="POST" novalidate>
+        <label for="name">Nombre:</label>
+        <input type="text" name="name" id="name" required>
+        <span class="error-message"></span>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="email" id="email" required>
+        <span class="error-message"></span>
+        <label for="message">Mensaje:</label>
+        <textarea name="message" id="message" rows="5" required></textarea>
+        <span class="error-message"></span>
+        <button type="submit" class="btn-main">Enviar</button>
+      </form>
+    </section>
   </main>
   <footer class="footer">
     <p>&copy; 2025 Licores ARG. Todos los derechos reservados.</p>
   </footer>
   <script src="js/main.js" defer></script>
+  <script src="js/reviews-carousel.js" defer></script>
+  <script src="js/slider.js" defer></script>
   <script>
     // --- Selector de idioma (ES/EN) ---
     const LANGS = {

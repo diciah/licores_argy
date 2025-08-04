@@ -7,582 +7,921 @@ const categoryMap = {
   "Licor": "Licores",
   "Limoncello": "Licores",
   "Aperitivo": "Aperitivos",
-  "Fernet": "Fernet",
   "Jarabe": "Jarabe",
-  "Vino": "Vinos",
   "Gin": "Gin",
-  "Whisky": "Whisky"
 };
-
 const products = [
-  {
-    id: "vodka-1",
-    name: "VODKA NEW STYLE",
-    price: 1000,
-    category: "Vodka",
-    image: "https://i.ibb.co/LDywGQQW/vodka-original.jpg",
-    description: "Vodka New Style Original"
-  },
-  {
-    id: "vodka-2",
-    name: "VODKA CITRUS NEW STYLE",
-    price: 1200,
-    category: "Vodka",
-    image: "https://i.ibb.co/Xr4zK0vm/vodka-citrus.jpg",
-    description: "Vodka New Style Citrus"
-  },
-  {
-    id: "vodka-3",
-    name: "VODKA FRUTOS ROJOS NEW STYLE",
-    price: 1200,
-    category: "Vodka",
-    image: "https://i.ibb.co/gZsj51pS/vodka-frutos-rojos.jpg",
-    description: "Vodka New Style Frutos Rojos"
-  },
-  {
-    id: "vodka-4",
-    name: "VODKA MARACUYA NEW STYLE",
-    price: 1200,
-    category: "Vodka",
-    image: "https://i.ibb.co/TxRmHLm1/vodka-maracuya.jpg",
-    description: "Vodka New Style Maracuya"
-  },
-  {
-    id: "vodka-5",
-    name: "VODKA MELON NEW STYLE",
-    price: 1200,
-    category: "Vodka",
-    image: "https://i.ibb.co/hxjF5trP/vodka-melon.jpg",
-    description: "Vodka New Style Melon"
-  },
-  {
-    id: "vodka-6",
-    name: "VODKA PERA NEW STYLE",
-    price: 1200,
-    category: "Vodka",
-    image: "https://i.ibb.co/HTmg4mMg/vodka-pera.jpg",
-    description: "Vodka New Style Pera"
-  },
-  {
-    id: "vodka-7",
-    name: "VODKA MANZANA VERDE NEW STYLE",
-    price: 1200,
-    category: "Vodka",
-    image: "https://i.ibb.co/zHPsp2ry/vodka-manzana.jpg",
-    description: "Vodka New Style Manzana Verde"
-  },
-  {
-    id: "vodka-8",
-    name: "VODKA SANDIA NEW STYLE",
-    price: 1200,
-    category: "Vodka",
-    image: "https://i.ibb.co/g1DZ3G4/vodka-sandia.jpg",
-    description: "Vodka New Style Sandia"
-  },
-  {
-    id: "vodka-9",
-    name: "VODKA UVA ARANDANO NEW STYLE",
-    price: 1200,
-    category: "Vodka",
-    image: "https://i.ibb.co/My9YJzxR/vodka-arandanos-uva.jpg",
-    description: "Vodka New Style Uva Arandano"
-  },
-  {
-    id: "vodka-10",
-    name: "NEW STYLE Vodka Evolution Edition",
-    price: 1500,
-    category: "Vodka",
-    image: "https://i.ibb.co/LD9hzt4d/vodka-evolution.jpg",
-    description: "New Style Vodka Evolution Edition"
-  },
-  {
-    id: "vodka-11",
-    name: "NEW STYLE Vodka Evolution Edition Mango",
-    price: 1500,
-    category: "Vodka",
-    image: "https://i.ibb.co/7tJYmTgf/vodka-mango.jpg",
-    description: "New Style Vodka Evolution Edition Mango"
-  },
-  {
-    id: "vodka-12",
-    name: "NEW STYLE Vodka Evolution Edition Raspberry",
-    price: 1500,
-    category: "Vodka",
-    image: "https://i.ibb.co/VWYycdMP/vodka-raspbery.jpg",
-    description: "New Style Vodka Evolution Edition Raspberry"
-  },
-  {
-    id: "vodka-13",
-    name: "NEW STYLE Vodka Evolution Edition Tamarindo",
-    price: 1500,
-    category: "Vodka",
-    image: "https://i.ibb.co/v4V2ZFwL/vodka-tamarindo.jpg",
-    description: "New Style Vodka Evolution Edition Tamarindo"
-  },
-  {
-    id: "vodka-14",
-    name: "NEW STYLE Vodka Evolution Edition Yuzu",
-    price: 1500,
-    category: "Vodka",
-    image: "https://i.ibb.co/rf1mh7RX/vodka-yuzu.jpg",
-    description: "New Style Vodka Evolution Edition Yuzu"
-  },
-  {
-    id: "licores-1",
-    name: "PIÑA COLADA NEW STYLE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/G4CZgwLh/pinia-colada.jpg",
-    description: "Piña Colada New Style"
-  },
-  {
-    id: "licores-2",
-    name: "CHOCOLATE NEW STYLE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/RGMcVLMF/chocolate.jpg",
-    description: "Chocolate New Style"
-  },
-  {
-    id: "licores-3",
-    name: "DULCE DE LECHE NEW STYLE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/5gBGYCXC/ddl.jpg",
-    description: "Dulce de Leche New Style"
-  },
-  {
-    id: "licores-4",
-    name: "CAFE NEW STYLE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/VcQMMnZ0/cafe-cognac.jpg",
-    description: "Café New Style"
-  },
-  {
-    id: "licores-5",
-    name: "MENTA NEW STYLE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/dsVsmmrs/menta.jpg",
-    description: "Menta New Style"
-  },
-  {
-    id: "licores-6",
-    name: "BLUE CURAÇAO NEW STYLE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/99dgchRT/blue-curacao.jpg",
-    description: "Blue Curaçao New Style"
-  },
-  {
-    id: "licores-7",
-    name: "MELON NEW STYLE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/Hp9Fk2g4/melon.jpg",
-    description: "Melon New Style"
-  },
-  {
-    id: "licores-8",
-    name: "FRUTILLA NEW STYLE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/xqqvdQ94/frutilla.jpg",
-    description: "Frutilla New Style"
-  },
-  {
-    id: "licores-9",
-    name: "ANIS SAN VICENTE",
-    price: 800,
-    category: "Licores",
-    image: "https://i.ibb.co/fVvBQMdF/anis.jpg",
-    description: "Anís San Vicente"
-  },
-  {
-    id: "licores-10",
-    name: "LIMONCELLO PETRA D´ORO",
-    price: 900,
-    category: "Licores",
-    image: "https://i.ibb.co/TD6C945n/limoncello.jpg",
-    description: "Limoncello Petra D´Oro"
-  },
-  {
-    id: "Jarabe-1",
-    name: "GRANADINA NEW STYLE",
-    price: 600,
-    category: "Jarabe",
-    image: "https://i.ibb.co/L43hM9w/granadina.jpg",
-    description: "Granadina New Style"
-  },
-  {
-    id: "Fernet-1",
-    name: "Fernet Imperio",
-    price: 700,
-    category: "Fernet",
-    image: "https://i.ibb.co/0jjsT4Ht/fernet-imperio.jpg",
-    description: "Fernet Imperio"
-  },
-  {
-    id: "vinos-1",
-    name: "RESERVA DE LOS ANDES MALBEC",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/Kz9c32Sp/andes-malbec.jpg",
-    description: "Reserva de los Andes Malbec Varietal"
-  },
-  {
-    id: "vinos-2",
-    name: "RESERVA DE LOS ANDES CABERNET",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Reserva de los Andes Cabernet Varietal"
-  },
-  {
-    id: "vinos-3",
-    name: "RESERVA DE LOS ANDES BONARDA",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Reserva de los Andes Bonarda Varietal"
-  },
-  {
-    id: "vinos-4",
-    name: "RESERVA DE LOS ANDES BLANCO DE MALBEC",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Reserva de los Andes Blanco de Malbec Varietal"
-  },
-  {
-    id: "vinos-5",
-    name: "RESERVA DE LOS ANDES CHARDONNAY",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Reserva de los Andes Chardonnay Varietal"
-  },
-  {
-    id: "vinos-6",
-    name: "RESERVA DE LOS ANDES MALBEC SYNERGY",
-    price: 2200,
-    category: "Vinos",
-    image: "https://i.ibb.co/hxDGghpR/andes-malbec-synergy.jpg",
-    description: "Reserva de los Andes Malbec Synergy"
-  },
-  {
-    id: "vinos-7",
-    name: "RESERVA DE LOS ANDES DULCE NOUVEAU",
-    price: 1800,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Reserva de los Andes Dulce Nouveau Blanco"
-  },
-  {
-    id: "vinos-8",
-    name: "RESERVA DE LOS ANDES MALBEC GRAN ROBLE",
-    price: 2500,
-    category: "Vinos",
-    image: "https://i.ibb.co/nsF2XC9q/andes-malbec-roble.jpg",
-    description: "Reserva de los Andes Malbec Gran Roble"
-  },
-  {
-    id: "vinos-9",
-    name: "RESERVA DE LOS ANDES CABERNET GRAN ROBLE",
-    price: 2500,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Reserva de los Andes Cabernet Gran Roble"
-  },
-  {
-    id: "vinos-10",
-    name: "RESERVA DE LOS ANDES CHARDONNAY GRAN ROBLE",
-    price: 2500,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Reserva de los Andes Chardonnay Gran Roble"
-  },
-  {
-    id: "vinos-11",
-    name: "SIFONAZO TINTO MALBEC/SYRAH",
-    price: 1500,
-    category: "Vinos",
-    image: "https://i.ibb.co/Nn7PXbS2/sifonazo-malbec.jpg",
-    description: "Sifonazo Tinto Malbec/Syrah"
-  },
-  {
-    id: "vinos-12",
-    name: "SIFONAZO BLANCO PEDRO GIMENEZ/CHENIN",
-    price: 1500,
-    category: "Vinos",
-    image: "https://i.ibb.co/Q7Zyp3Yt/sifonazo-blancoo.jpg",
-    description: "Sifonazo Blanco Pedro Gimenez/Chenin"
-  },
-  {
-    id: "vinos-13",
-    name: "TANINOS TINTO MALBEC",
-    price: 1600,
-    category: "Vinos",
-    image: "https://i.ibb.co/vfWd2Nw/taninoss.jpg",
-    description: "Taninos Tinto Malbec"
-  },
-  {
-    id: "vinos-14",
-    name: "CELADOR VARIETAL ROBLE MALBEC",
-    price: 1800,
-    category: "Vinos",
-    image: "https://i.ibb.co/kV35vRyd/celador-malbec.jpg",
-    description: "Celador Varietal Roble Malbec"
-  },
-  {
-    id: "vinos-15",
-    name: "CELADOR VARIETAL ROBLE CABERNET FRANC",
-    price: 1800,
-    category: "Vinos",
-    image: "https://i.ibb.co/0RccxxDQ/celador-cavernet.jpg",
-    description: "Celador Varietal Roble Cabernet Franc"
-  },
-  {
-    id: "vinos-16",
-    name: "CELADOR VARIETAL ROBLE CABERNET",
-    price: 1800,
-    category: "Vinos",
-    image: "https://i.ibb.co/0RccxxDQ/celador-cavernet.jpg",
-    description: "Celador Varietal Roble Cabernet"
-  },
-  {
-    id: "vinos-17",
-    name: "CELADOR VARIETAL ROBLE CHARDONNAY",
-    price: 1800,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Celador Varietal Roble Chardonnay"
-  },
-  {
-    id: "vinos-18",
-    name: "DON JUAN NAHUEL MALBEC",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/xtNdHj2z/don-juan-nahuel-malbec.jpg",
-    description: "Don Juan Nahuel Malbec Varietal/Roble"
-  },
-  {
-    id: "vinos-19",
-    name: "DON JUAN NAHUEL CAB.SAUVIGNON",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/vCtJjNbM/don-juan-nahuel-cabernet-sauvignon.jpg",
-    description: "Don Juan Nahuel Cabernet Sauvignon Varietal/Roble"
-  },
-  {
-    id: "vinos-20",
-    name: "DON JUAN NAHUEL MALBEC RESERVA",
-    price: 2200,
-    category: "Vinos",
-    image: "https://i.ibb.co/FkLnZ2YL/don-juan-nahuel-malbec-reserva-2021.jpg",
-    description: "Don Juan Nahuel Malbec Reserva Varietal/Roble"
-  },
-  {
-    id: "vinos-21",
-    name: "DJN GRAN CORTE MALBEC-P.VERDOT",
-    price: 2500,
-    category: "Vinos",
-    image: "https://i.ibb.co/xtnv8Xqd/gran-corte.jpg",
-    description: "DJN Gran Corte Malbec-P.Verdot"
-  },
-  {
-    id: "vinos-22",
-    name: "DJN GRAN CORTE P.VERDOT-MALBEC",
-    price: 2500,
-    category: "Vinos",
-    image: "https://i.ibb.co/xtnv8Xqd/gran-corte.jpg",
-    description: "DJN Gran Corte P.Verdot-Malbec"
-  },
-  {
-    id: "vinos-23",
-    name: "CALLEJON DE LAS BRUJAS ENSAMBLE MALBEC-CABERNET-PETIT VERDOT",
-    price: 2300,
-    category: "Vinos",
-    image: "https://i.ibb.co/pmyfDdh/ensamble-2022-v2.jpg",
-    description: "Callejon de las Brujas Ensamble Malbec-Cabernet-Petit Verdot"
-  },
-  {
-    id: "vinos-24",
-    name: "CALLEJON DE LAS BRUJAS ENSAMBLE SAUVIGNON BLANC VIOGNER",
-    price: 2300,
-    category: "Vinos",
-    image: "https://i.ibb.co/mVMkw97x/ensamble-2019-blanco.jpg",
-    description: "Callejon de las Brujas Ensamble Sauvignon Blanc Viogner"
-  },
-  {
-    id: "vinos-25",
-    name: "CALLEJON DE LAS BRUJAS CANARI",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/PZxXGpBD/brujas-canari.jpg",
-    description: "Callejon de las Brujas Varietal Canari"
-  },
-  {
-    id: "vinos-26",
-    name: "CALLEJON DE LAS BRUJAS BLANCO DE MALBEC",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/qL7Jfrxk/brujas-blanco-malbec.jpg",
-    description: "Callejon de las Brujas Varietal Blanco de Malbec"
-  },
-  {
-    id: "vinos-27",
-    name: "CALLEJON DE LAS BRUJAS TANNAT",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/ym2dS0nB/brujas-tannat.jpg",
-    description: "Callejon de las Brujas Varietal Tannat"
-  },
-  {
-    id: "vinos-28",
-    name: "CALLEJON DE LAS BRUJAS CARMENERE",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Callejon de las Brujas Varietal Carmenere"
-  },
-  {
-    id: "vinos-29",
-    name: "CALLEJON DE LAS BRUJAS GEWURZTRAMINER",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/TyRc70X/brujas-GEWURZTRAMINER.jpg",
-    description: "Callejon de las Brujas Varietal Gewurztraminer"
-  },
-  {
-    id: "vinos-30",
-    name: "CALLEJON DE LAS BRUJAS MIX VARIETALES",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Callejon de las Brujas Varietal Mix Varietales"
-  },
-  {
-    id: "vinos-31",
-    name: "CALLEJON DE LAS BRUJAS CABERNET FRANC",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/6cKhV8yk/brujas-cabernet-franc.jpg",
-    description: "Callejon de las Brujas Varietal Cabernet Franc"
-  },
-  {
-    id: "vinos-32",
-    name: "CALLEJON DE LAS BRUJAS BONARDA",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/kVpZL5XP/brujas-bonarda.jpg",
-    description: "Callejon de las Brujas Varietal Bonarda"
-  },
-  {
-    id: "vinos-33",
-    name: "CALLEJON DE LAS BRUJAS BONARDA BONARDA",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Callejon de las Brujas Varietal Bonarda Bonarda"
-  },
-  {
-    id: "vinos-34",
-    name: "CALLEJON DE LAS BRUJAS CABERNET SAUVIGNON",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/Q7dVK7Sn/brujas-cabernet-suvignon.jpg",
-    description: "Callejon de las Brujas Varietal Cabernet Sauvignon"
-  },
-  {
-    id: "vinos-35",
-    name: "CALLEJON DE LAS BRUJAS MALBEC",
-    price: 2000,
-    category: "Vinos",
-    image: "https://i.ibb.co/N6hLnYtb/brujas-malbec.jpg",
-    description: "Callejon de las Brujas Varietal Malbec"
-  },
-  {
-    id: "gin-1",
-    name: "JUNIPER LONDON DRY GIN",
-    price: 1500,
-    category: "Gin",
-    image: "https://i.ibb.co/m5wnx99f/gin-juniper.jpg",
-    description: "Juniper London Dry Gin Seco"
-  },
-  {
-    id: "gin-2",
-    name: "NEW STYLE GIN",
-    price: 1400,
-    category: "Gin",
-    image: "https://i.ibb.co/r2YM4HsC/original.jpg",
-    description: "New Style Gin Original"
-  },
-  {
-    id: "gin-3",
-    name: "NEW STYLE GIN PINK",
-    price: 1400,
-    category: "Gin",
-    image: "https://i.ibb.co/cXZK6gZC/pink.jpg",
-    description: "New Style Gin Rosa"
-  },
-  {
-    id: "gin-4",
-    name: "NEW STYLE GIN CITRIC",
-    price: 1400,
-    category: "Gin",
-    image: "https://i.ibb.co/gFFwMgm7/citric.jpg",
-    description: "New Style Gin Citric"
-  },
-  {
-    id: "gin-5",
-    name: "NEW STYLE GIN SPICY",
-    price: 1400,
-    category: "Gin",
-    image: "https://i.ibb.co/twz0ghcP/spicy.jpg",
-    description: "New Style Gin Picante"
-  },
-  {
-    id: "aperitivos-1",
-    name: "Aperitivo Manon",
-    price: 700,
-    category: "Aperitivos",
-    image: "https://i.ibb.co/JWYyjkhC/aperitivo-manon.jpg",
-    description: "Manon Americano Aperitivo"
-  },
-  {
-    id: "whisky-1",
-    name: "WHISKY GLOUCESTER BLEND",
-    price: 1800,
-    category: "Whisky",
-    image: "https://i.ibb.co/SXxV7HD5/blended.jpg",
-    description: "Whisky Gloucester Blend"
-  },
-  {
-    id: "whisky-2",
-    name: "WHISKY GLOUCESTER HONEY",
-    price: 1800,
-    category: "Whisky",
-    image: "https://i.ibb.co/5hJ4bkWz/honey.jpg",
-    description: "Whisky Gloucester Honey"
-  },
-  {
-    id: "whisky-3",
-    name: "WHISKY GLOUCESTER FIRE",
-    price: 1800,
-    category: "Whisky",
-    image: "https://i.ibb.co/rGsTYfQC/fire-29.jpg",
-    description: "Whisky Gloucester Fire"
-  },
-  {
-    id: "whisky-4",
-    name: "WHISKY DUMBARTON",
-    price: 1800,
-    category: "Whisky",
-    image: "https://i.ibb.co/ZYymtv1Q/1.jpg", // Placeholder
-    description: "Whisky Dumbarton Licor al Whisky"
-  }
+// --- PRODUCTOS GENERADOS DESDE CSV ---
+{
+  id: "vodka-new-style-original",
+  name: "Vodka New Style Original",
+  brand: "New Style",
+  description: "Vodka New Style sabor Original",
+  category: "Vodkas",
+  flavor: "Original",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-citrus",
+  name: "Vodka New Style Citrus",
+  brand: "New Style",
+  description: "Vodka New Style sabor Citrus",
+  category: "Vodkas",
+  flavor: "Citrus",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-citrus-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-citrus-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-frutos-rojos",
+  name: "Vodka New Style Frutos Rojos",
+  brand: "New Style",
+  description: "Vodka New Style sabor Frutos Rojos",
+  category: "Vodkas",
+  flavor: "Frutos Rojos",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-frutos-rojos-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-frutos-rojos-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-maracuya",
+  name: "Vodka New Style Maracuya",
+  brand: "New Style",
+  description: "Vodka New Style sabor Maracuya",
+  category: "Vodkas",
+  flavor: "Maracuya",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-maracuya-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-maracuya-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-melon",
+  name: "Vodka New Style Melon",
+  brand: "New Style",
+  description: "Vodka New Style sabor Melon",
+  category: "Vodkas",
+  flavor: "Melon",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-melon-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-melon-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-pera",
+  name: "Vodka New Style Pera",
+  brand: "New Style",
+  description: "Vodka New Style sabor Pera",
+  category: "Vodkas",
+  flavor: "Pera",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-pera-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-pera-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-manzana",
+  name: "Vodka New Style Manzana ",
+  brand: "New Style",
+  description: "Vodka New Style sabor Manzana Verde",
+  category: "Vodkas",
+  flavor: "Manzana Verde",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-manzana-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-manzana-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-sandia",
+  name: "Vodka New Style Sandia",
+  brand: "New Style",
+  description: "Vodka New Style sabor Sandia",
+  category: "Vodkas",
+  flavor: "Sandia",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-sandia-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-sandia-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-arandano-uva",
+  name: "Vodka New Style Arandano y Uva",
+  brand: "New Style",
+  description: "Vodka New Style sabor Arandano y Uva",
+  category: "Vodkas",
+  flavor: "Arandano y Uva",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-arandanos-uva-new-style.webp",
+  image_jpg: "/images/vodkas/vodka-arandanos-uva-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-evolution-original",
+  name: "Vodka New Style Evolution Original",
+  brand: "New Style",
+  description: "Vodka New Style Evolution sabor Original",
+  category: "Vodkas",
+  flavor: "Original",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-new-style-evolution.webp",
+  image_jpg: "/images/vodkas/vodka-new-style-evolution.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-evolution-mango",
+  name: "Vodka New Style Evolution Mango",
+  brand: "New Style",
+  description: "Vodka New Style Evolution sabor Mango",
+  category: "Vodkas",
+  flavor: "Mango",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka- mango-new-style-evolution.webp",
+  image_jpg: "/images/vodkas/vodka- mango-new-style-evolution.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-evolution-frambuesa",
+  name: "Vodka New Style Evolution Frambuesa",
+  brand: "New Style",
+  description: "Vodka New Style Evolution sabor Frambuesa",
+  category: "Vodkas",
+  flavor: "Frambuesa",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-raspbery-new-style-evolution.webp",
+  image_jpg: "/images/vodkas/vodka-raspbery-new-style-evolution.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-evolution-tamarindo",
+  name: "Vodka New Style Evolution Tamarindo",
+  brand: "New Style",
+  description: "Vodka New Style Evolution sabor Tamarindo",
+  category: "Vodkas",
+  flavor: "Tamarindo",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-tamarindo-new-style-evolotion.webp",
+  image_jpg: "/images/vodkas/vodka-tamarindo-new-style-evolotion.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vodka-new-style-evolution-yuzu",
+  name: "Vodka New Style Evolution Yuzu",
+  brand: "New Style",
+  description: "Vodka New Style Evolution sabor Yuzu",
+  category: "Vodkas",
+  flavor: "Yuzu",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vodkas/vodka-yuzu-new-style-evoloution.webp",
+  image_jpg: "/images/vodkas/vodka-yuzu-new-style-evoloution.jpg",
+  price: "7,500.00"
+},
+{
+  id: "licor-new-style-pina-colada",
+  name: "Licor New Style Piña Colada",
+  brand: "New Style",
+  description: "Licor New Style sabor Piña Colada",
+  category: "Licores",
+  flavor: "Piña Colada",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-piña-colada-new-style.webp",
+  image_jpg: "/images/licores/licor-piña-colada-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "licor-new-style-chocolate",
+  name: "Licor New Style Chocolate",
+  brand: "New Style",
+  description: "Licor New Style sabor Chocolate",
+  category: "Licores",
+  flavor: "Chocolate",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-chocolate-new-style.webp",
+  image_jpg: "/images/licores/licor-chocolate-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "licor-new-style-dulce-de-leche",
+  name: "Licor New Style Dulce de Leche",
+  brand: "New Style",
+  description: "Licor New Style sabor Dulce de Leche",
+  category: "Licores",
+  flavor: "Dulce de Leche",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-dulce-de-leche-new-style.webp",
+  image_jpg: "/images/licores/licor-dulce-de-leche-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "licor-new-style-cafe-cognac",
+  name: "Licor New Style Cafe al Cognac",
+  brand: "New Style",
+  description: "Licor New Style sabor Cafe al Cognac",
+  category: "Licores",
+  flavor: "Cafe al Cognac",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-cafe-cognac-new-style.webp",
+  image_jpg: "/images/licores/licor-cafe-cognac-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "licor-new-style-menta",
+  name: "Licor New Style Menta",
+  brand: "New Style",
+  description: "Licor New Style sabor Menta",
+  category: "Licores",
+  flavor: "Menta",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-menta-new-style.webp",
+  image_jpg: "/images/licores/licor-menta-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "licor-new-style-blue-curacao",
+  name: "Licor New Style Blue Curacao",
+  brand: "New Style",
+  description: "Licor New Style sabor Blue Curacao",
+  category: "Licores",
+  flavor: "Blue Curacao",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-blue-curacao-new-style.webp",
+  image_jpg: "/images/licores/licor-blue-curacao-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "licor-new-style-melon",
+  name: "Licor New Style Melon",
+  brand: "New Style",
+  description: "Licor New Style sabor Melon",
+  category: "Licores",
+  flavor: "Melon",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-melon-new-style.webp",
+  image_jpg: "/images/licores/licor-melon-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "licor-new-style-frutilla",
+  name: "Licor New Style Frutilla",
+  brand: "New Style",
+  description: "Licor New Style sabor Frutilla",
+  category: "Licores",
+  flavor: "Frutilla",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-frutilla-new-style.webp",
+  image_jpg: "/images/licores/licor-frutilla-new-style.jpg",
+  price: "7,500.00"
+},
+{
+  id: "anis-san-vicente",
+  name: "Anis San  Vicente",
+  brand: "San Vicente",
+  description: "Anis San Vicente",
+  category: "Licores",
+  flavor: "Anis",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/licor-anis-san-vicente.webp",
+  image_jpg: "/images/licores/licor-anis-san-vicente.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-malbec",
+  name: "Vino Reserva de los Andes Malbec",
+  brand: "Reserva de los Andes",
+  description: "Vino Malbec Reserva de los Andes",
+  category: "Vinos",
+  flavor: "Malbec",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-malbec-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-malbec-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-cabernet",
+  name: "Vino Reserva de los Andes Cabernet",
+  brand: "Reserva de los Andes",
+  description: "Vino Cabernet Reserva de los Andes",
+  category: "Vinos",
+  flavor: "Cabernet",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-bonarda",
+  name: "Vino Reserva de los Andes Bonarda",
+  brand: "Reserva de los Andes",
+  description: "Vino Bonarda Reserva de los Andes",
+  category: "Vinos",
+  flavor: "Bonarda",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-blanco-malbec",
+  name: "Vino Reserva de los Andes Blanco de Malbec",
+  brand: "Reserva de los Andes",
+  description: "Vino Blanco de Malbec Reserva de los Andes",
+  category: "Vinos",
+  flavor: "Blanco de Malbec",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-chardonnay",
+  name: "Vino Reserva de los Andes Chardonnay",
+  brand: "Reserva de los Andes",
+  description: "Vino Chardonnay Reserva de los Andes",
+  category: "Vinos",
+  flavor: "Chardonnay",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-malbec-synergy",
+  name: "Vino Reserva de los Andes Malbec Synergy",
+  brand: "Reserva de los Andes",
+  description: "Vino Malbec Synergy Reserva de los Andes",
+  category: "Vinos",
+  flavor: "Malbec Synergy",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-malbec-synergy-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-malbec-synergy-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-blanco-dulce-noveau",
+  name: "Vino Reserva de los Andes Blanco Dulce Noveau",
+  brand: "Reserva de los Andes",
+  description: "Vino Blanco Dulce Noveau Reserva de los Andes",
+  category: "Vinos",
+  flavor: "Blanco Dulce Noveau",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-roble-malbec",
+  name: "Vino Reserva de los Andes Roble Malbec",
+  brand: "Reserva de los Andes",
+  description: "Vino Malbec Reserva de los Andes Roble ",
+  category: "Vinos",
+  flavor: "Roble Malbec",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-malbec-gran-roble-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-malbec-gran-roble-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-roble-cabernet",
+  name: "Vino Reserva de los Andes Roble Cabernet",
+  brand: "Reserva de los Andes",
+  description: "Vino Cabernet Reserva de los Andes Roble ",
+  category: "Vinos",
+  flavor: "Roble Cabernet",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-reserva-andes-roble-chardonnay",
+  name: "Vino Reserva de los Andes Roble Chardonnay",
+  brand: "Reserva de los Andes",
+  description: "Vino Chardonnay Reserva de los Andes Roble ",
+  category: "Vinos",
+  flavor: "Roble Chardonnay",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-sifonazo-tinto",
+  name: "Vino Sifonazo Tinto",
+  brand: "Sifonazo",
+  description: "Vino Malbec Syrah Sifonazo",
+  category: "Vinos",
+  flavor: "MALBEC / SYRAH",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-malbec-sifonazo.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-malbec-sifonazo.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-sifonazo-blanco",
+  name: "Vino Sifonazo Blanco",
+  brand: "Sifonazo",
+  description: "Vino Blanco Pedro Gimenez Chenin Sifonazo",
+  category: "Vinos",
+  flavor: "PEDRO GIMENEZ / CHENIN",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-blanco-sifonazo.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-blanco-sifonazo.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-taninos-tinto",
+  name: "Vino Taninos Tinto",
+  brand: "Taninos",
+  description: "Vino TintoTaninos",
+  category: "Vinos",
+  flavor: "Tinto",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/reserva-de-los-andes/vino-tinto-taninos.webp",
+  image_jpg: "/images/vinos/reserva-de-los-andes/vino-tinto-taninos.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-celador-malbec",
+  name: "Vino Celador Malbec",
+  brand: "Celador",
+  description: "Vino Malbec Celador",
+  category: "Vinos",
+  flavor: "Malbec",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/celador/vino-malbec-celador.webp",
+  image_jpg: "/images/vinos/celador/vino-malbec-celador.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-celador-cabernet-franc",
+  name: "Vino Celador Cabernet Franc",
+  brand: "Celador",
+  description: "Vino Cabernet Franc Celador",
+  category: "Vinos",
+  flavor: "Cabernet Franc",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/celador/vino-cabernet-franc-celador.webp",
+  image_jpg: "/images/vinos/celador/vino-cabernet-franc-celador.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-celador-cabernet",
+  name: "Vino Celador Cabernet",
+  brand: "Celador",
+  description: "Vino Cabernet Celador",
+  category: "Vinos",
+  flavor: "Cabernet",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/celador/vino-cabernet-celador.webp",
+  image_jpg: "/images/vinos/celador/vino-cabernet-celador.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-celador-chardonnay",
+  name: "Vino Celador Chardonnay",
+  brand: "Celador",
+  description: "Vino Chardonnay Celador",
+  category: "Vinos",
+  flavor: "Chardonnay",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/celador/vino-chardonnay-celador.webp",
+  image_jpg: "/images/vinos/celador/vino-chardonnay-celador.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-don-juan-nahuel-malbec",
+  name: "Vino Don Juan Nahuel Malbec",
+  brand: "Don Juan Nahuel",
+  description: "Vino Malbec Don Juan Nahuel",
+  category: "Vinos",
+  flavor: "Malbec",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/don-juan-nahuel/vino-malbec-don-juan-nahuel.webp",
+  image_jpg: "/images/vinos/don-juan-nahuel/vino-malbec-don-juan-nahuel.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-don-juan-nahuel-cabernet-sauvignon",
+  name: "Vino Don Juan Nahuel Cabernet Sauvignon",
+  brand: "Don Juan Nahuel",
+  description: "Vino Cabernet Sauvignon Don Juan Nahuel",
+  category: "Vinos",
+  flavor: "Cabernet Sauvignon",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/don-juan-nahuel/vino-cabernet-sauvignon-don-juan-nahuel.webp",
+  image_jpg: "/images/vinos/don-juan-nahuel/vino-cabernet_sauvignon-don-juan-nahuel.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-don-juan-nahuel-malbec-reserva",
+  name: "Vino Don Juan Nahuel Malbec Reserva",
+  brand: "Don Juan Nahuel",
+  description: "Vino Malbec Reserva Don Juan Nahuel",
+  category: "Vinos",
+  flavor: "Malbec",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/don-juan-nahuel/vino-malbec-reserva-2021-don-juan-nahuel.webp",
+  image_jpg: "/images/vinos/don-juan-nahuel/vino-malbec-reserva-2021-don-juan-nahuel.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-djn-gran-corte-malbec-p-verdot",
+  name: "Vino DJN Gran Corte Malbec P.Verdot",
+  brand: "DJN",
+  description: "Vino Malbec / Petit Verdot DJN",
+  category: "Vinos",
+  flavor: "Malbec / P.Verdot",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/djn/vino-tinto-gran-corte-DJN.webp",
+  image_jpg: "/images/vinos/djn/vino-tinto-gran-corte-DJN.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-ensamble-malbec-cabernet-petit-vedot",
+  name: "Vino Callejon de las Brujas Ensamble Malbec/Cabernet/Petit Vedot",
+  brand: "Callejon de las Brujas",
+  description: "Vino Malbec/Cabernet/Petit Vedot Callejon de las Brujas Ensamble ",
+  category: "Vinos",
+  flavor: "ENSAMBLE MALBEC-CABERNET-PETIT VERDOT",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.webpp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.jpgp",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-ensamble-blanco-sauvignon-viogner",
+  name: "Vino Callejon de las Brujas Ensamble Blanco Sauvignon / Viogner",
+  brand: "Callejon de las Brujas",
+  description: "Vino  Blanco Sauvignon / Viogner Callejon de las Brujas Ensamble ",
+  category: "Vinos",
+  flavor: "ENSAMBLE SAUVIGNON BLANC  VIOGNER",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-blanco-ensamble-2019-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-blanco-ensamble-2019-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-canari",
+  name: "Vino Callejon de las Brujas Varietal Canari",
+  brand: "Callejon de las Brujas",
+  description: "Vino  Varietal Canari Callejon de las Brujas",
+  category: "Vinos",
+  flavor: "CANARI",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-canari-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-canari-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-blanco-malbec",
+  name: "Vino Callejon de las Brujas Varietal Blanco de Malbec",
+  brand: "Callejon de las Brujas",
+  description: "Vino Varietal Blanco de Malbec Callejon de las Brujas ",
+  category: "Vinos",
+  flavor: "BLANCO DE MALBEC",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-blanco-malbec-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-blanco-malbec-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-tannat",
+  name: "Vino Callejon de las Brujas Varietal Tannat",
+  brand: "Callejon de las Brujas",
+  description: "Vino Varietal Tannat Callejon de las Brujas ",
+  category: "Vinos",
+  flavor: "TANNAT",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-tannat-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-tannat-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-carmenere",
+  name: "Vino Callejon de las Brujas Varietal Carmenere",
+  brand: "Callejon de las Brujas",
+  description: "Vino Varietal Carmenere Callejon de las Brujas",
+  category: "Vinos",
+  flavor: "CARMENERE",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-gewurztraminer",
+  name: "Vino Callejon de las Brujas Varietal Gewurztraminer",
+  brand: "Callejon de las Brujas",
+  description: "Vino Varietal Gewurztraminer Callejon de las Brujas",
+  category: "Vinos",
+  flavor: "GEWURZTRAMINER",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-gewurztraminer-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-gewurztraminer-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-mix-varietales",
+  name: "Vino Callejon de las Brujas Mix Varietales",
+  brand: "Callejon de las Brujas",
+  description: "Vino Mix Varietales Callejon de las Brujas ",
+  category: "Vinos",
+  flavor: "MIX VARIETALES",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-cabernet-franc",
+  name: "Vino Callejon de las Brujas Varietal Cabernet Franc",
+  brand: "Callejon de las Brujas",
+  description: "Vino Varietal Cabernet Franc Callejon de las Brujas",
+  category: "Vinos",
+  flavor: "CABERNET FRANC",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-cabernet-franc-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-cabernet-franc-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-bonarda",
+  name: "Vino Callejon de las Brujas Varietal Bonarda",
+  brand: "Callejon de las Brujas",
+  description: "Vino Varietal Bonarda Callejon de las Brujas ",
+  category: "Vinos",
+  flavor: "BONARDA",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-bonarda-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-bonarda-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-bonarda-bonarda",
+  name: "Vino Callejon de las Brujas Varietal Bonarda Bonarda",
+  brand: "Callejon de las Brujas",
+  description: "Vino  Varietal Bonarda Bonarda Callejon de las Brujas",
+  category: "Vinos",
+  flavor: "BONARDA BONARDA",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.jpg",
+  price: "$7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-cabernet-sauvignon",
+  name: "Vino Callejon de las Brujas Varietal Cabernet Sauvignon",
+  brand: "Callejon de las Brujas",
+  description: "Vino Varietal Cabernet Sauvignon  Callejon de las Brujas",
+  category: "Vinos",
+  flavor: "CABERNET SAUVIGNON",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.jpg",
+  price: "7,500.00"
+},
+{
+  id: "vino-callejon-brujas-varietal-malbec",
+  name: "Vino Callejon de las Brujas Varietal Malbec",
+  brand: "Callejon de las Brujas",
+  description: "Vino Varietal Malbec Callejon de las Brujas",
+  category: "Vinos",
+  flavor: "MALBEC",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/vinos/callejon-de-las-brujas/vino-malbec-callejon-de-las-brujas.webp",
+  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-malbec-callejon-de-las-brujas.jpg",
+  price: "7,500.00"
+},
+{
+  id: "gin-juniper-london-dry",
+  name: "Gin Juniper London Dry",
+  brand: "Juniper",
+  description: "Gin London Dry Juniper",
+  category: "Especialidades",
+  flavor: "Gin Seco",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/especialidades/gin-juniper.webp",
+  image_jpg: "/images/especialidades/gin-juniper.jpg",
+  price: "7,500.00"
+},
+{
+  id: "limoncello-petra-d-oro",
+  name: "Limoncello Petra D'Oro",
+  brand: "Petra D'Oro",
+  description: "Limoncello Petra D'Oro / Licor de Limon",
+  category: "Especialidades",
+  flavor: "Licor de Limon / Limoncello",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/especialidades/licor-limon-limoncello-pietra-d-oro.webp",
+  image_jpg: "/images/especialidades/licor-limon-limoncello-pietra-d-oro.jpg",
+  price: "7,500.00"
+},
+{
+  id: "aperitivo-manon",
+  name: "Aperitivo Manon",
+  brand: "Manon",
+  description: "Aperitivo Manon Americano",
+  category: "Aperitivos",
+  flavor: "Aperitivo",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/aperitivos/aperitivo-manon.webp",
+  image_jpg: "/images/aperitivos/aperitivo-manon.jpg",
+  price: "7,500.00"
+},
+{
+  id: "fernet-imperio",
+  name: "Fernet Imperio",
+  brand: "Imperio",
+  description: "Aperitivo Fernet Imperio",
+  category: "Aperitivos",
+  flavor: "Fernet",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/aperitivos/fernet-imperio.webp",
+  image_jpg: "/images/aperitivos/fernet-imperio.jpg",
+  price: "7,500.00"
+},
+{
+  id: "bitter-bisleri",
+  name: "Bitter Bisleri",
+  brand: "Bisleri",
+  description: "Aperitivo Bisleri Bitter",
+  category: "Aperitivos",
+  flavor: "Bitter",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/aperitivos/aperitivo-bisleri-bitter.webp",
+  image_jpg: "/images/aperitivos/aperitivo-bisleri-bitter.jpg",
+  price: "7,500.00"
+},
+{
+  id: "granadina-new-styke",
+  name: "Granadina New Styke",
+  brand: "New Style",
+  description: "Jarabe de Granadina",
+  category: "Licores",
+  flavor: "Jarabe Granadina",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/licores/jarabe-granadina.webp",
+  image_jpg: "/images/licores/jarabe-granadina.jpg",
+  price: "7,500.00"
+},
+{
+  id: "whisky-gloucester-blended",
+  name: "Whisky Gloucester Blended",
+  brand: "Gloucester",
+  description: "Whisky Blended Gloucester ",
+  category: "Whiskys",
+  flavor: "WHISKY BLEND",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/whiskys/whisky-goucester-blended.webp",
+  image_jpg: "/images/whiskys/whisky-goucester-blended.jpg",
+  price: "7,500.00"
+},
+{
+  id: "whisky-gloucester-honey",
+  name: "Whisky Gloucester Honey",
+  brand: "Gloucester",
+  description: "Whisky Honey Gloucester ",
+  category: "Whiskys",
+  flavor: "WHISKY HONEY",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/whiskys/whysky-goucester-honey.webp",
+  image_jpg: "/images/whiskys/whysky-goucester-honey.jpg",
+  price: "7,500.00"
+},
+{
+  id: "whisky-gloucester-fire-29",
+  name: "Whisky Gloucester Fire 29",
+  brand: "Gloucester",
+  description: "Whisky Fire 29 Gloucester ",
+  category: "Whiskys",
+  flavor: "WHISKY FIRE",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/whiskys/whysky-goucester-fire-29.webp",
+  image_jpg: "/images/whiskys/whysky-goucester-fire-29.jpg",
+  price: "7,500.00"
+},
+{
+  id: "gin-new-style-original",
+  name: "Gin New Style Original",
+  brand: "New Style",
+  description: "Gin Original New Style",
+  category: "Gins",
+  flavor: "Original",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/gins/gin-new-syle.webp",
+  image_jpg: "/images/gins/gin-new-syle.jpg",
+  price: "7,500.00"
+},
+{
+  id: "gin-new-style-pink",
+  name: "Gin New Style Pink",
+  brand: "New Style",
+  description: "Gin Pink New Style ",
+  category: "Gins",
+  flavor: "Rosa",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/gins/gin-new-syle-pink.webp",
+  image_jpg: "/images/gins/gin-new-syle-pink.jpg",
+  price: "7,500.00"
+},
+{
+  id: "gin-new-style-citric",
+  name: "Gin New Style Citric",
+  brand: "New Style",
+  description: "Gin Citric New Style ",
+  category: "Gins",
+  flavor: "Citrico",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/gins/gin-citric-newstyle.webp",
+  image_jpg: "/images/gins/gin-citric-newstyle.jpg",
+  price: "7,500.00"
+},
+{
+  id: "gin-new-style-spicy",
+  name: "Gin New Style Spicy",
+  brand: "New Style",
+  description: "Gin Spicy New Style ",
+  category: "Gins",
+  flavor: "Picante",
+  graduation: "30º",
+  presentation: "1000 ml",
+  image: "/images/gins/gin-new-style-spicy.webp",
+  image_jpg: "/images/gins/gin-new-style-spicy.jpg",
+  price: "7,500.00"
+}
 ];
 
 // --- Renderizado de productos (catálogo) ---
@@ -599,7 +938,7 @@ function renderProducts(list) {
     card.className = 'product-card';
     // Control de cantidad por producto
     card.innerHTML = `
-      <img class="product-card__image" src="${product.image}" alt="${product.description}" loading="lazy">
+      <img class="product-card__image" src="${product.image}" alt="${product.description}" loading="lazy" tabindex="0" data-id="${product.id}">
       <h3>${product.name}</h3>
       <p>Precio: $${product.price}</p>
       <div class="product-card__qty" style="display:flex;align-items:center;justify-content:center;gap:0.5em;margin-bottom:0.5em;">
@@ -619,6 +958,74 @@ function renderProducts(list) {
     `;
     productsGrid.appendChild(card);
   });
+  // Modal pop-up for product details (optimized event handling)
+  document.querySelectorAll('.product-card__image').forEach(img => {
+    img.addEventListener('click', handleProductImageClick);
+    img.addEventListener('keyup', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') handleProductImageClick.call(img, e);
+    });
+  });
+
+  function handleProductImageClick(e) {
+    const id = this.getAttribute('data-id');
+    const product = products.find(p => p.id === id);
+    showProductModal(product);
+  }
+// Modal logic (UI/UX improved)
+function showProductModal(product) {
+  // Abrir ventana popup con la información del producto
+  const popupWidth = 420;
+  const popupHeight = 600;
+  const left = window.screenX + (window.outerWidth - popupWidth) / 2;
+  const top = window.screenY + (window.outerHeight - popupHeight) / 2;
+  const win = window.open('', 'productPopup', `width=${popupWidth},height=${popupHeight},left=${left},top=${top},resizable=yes,scrollbars=yes`);
+  if (!win) return;
+  // Imagen relativa para el popup
+  const imgSrc = product.image;
+  win.document.write(`<!DOCTYPE html>
+    <html lang='es'>
+    <head>
+      <meta charset='UTF-8'>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+      <title>${product.name} - Detalle</title>
+      <style>
+        :root { --card-bg: #232323; --main-fg: #f5f5f5; --accent: #c9a94b; }
+        body { background: #181818; color: var(--main-fg); font-family: 'Segoe UI', Arial, sans-serif; margin:0; }
+        .product-modal { box-shadow: 0 8px 32px rgba(0,0,0,0.18); border-radius: 16px; max-width: 95vw; width: 400px; margin: 2em auto; padding: 2em 1.5em 1.5em 1.5em; position: relative; background: var(--card-bg); color: var(--main-fg); }
+        .product-modal__close { position: absolute; top: 12px; right: 16px; background: none; border: none; font-size: 2rem; color: #888; cursor: pointer; z-index: 1; transition: color 0.2s; }
+        .product-modal__close:hover, .product-modal__close:focus { color: var(--accent); }
+        .product-modal__content { padding: 2em 1.5em 1.5em 1.5em; text-align: center; }
+        .product-modal__image { width: 100%; max-width: 260px; height: auto; margin-bottom: 1em; border-radius: 8px; object-fit: contain; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+        @media (max-width: 600px) {
+          .product-modal { width: 95vw; max-width: 98vw; padding: 0.5em; }
+          .product-modal__content { padding: 1em 0.5em 1em 0.5em; }
+          .product-modal__image { max-width: 90vw; }
+        }
+      </style>
+    </head>
+    <body>
+      <div class='product-modal'>
+        <button class='product-modal__close' aria-label='Cerrar ventana' tabindex='0'>&times;</button>
+        <div class='product-modal__content'>
+          <img src='${imgSrc}' alt='${product.description}' class='product-modal__image' loading='lazy'>
+          <h2>${product.name}</h2>
+          <p><b>Marca:</b> ${product.brand}</p>
+          <p><b>Descripción:</b> ${product.description}</p>
+          <p><b>Categoría:</b> ${product.category}</p>
+          <p><b>Sabor/Variedad:</b> ${product.flavor}</p>
+          <p><b>Graduación:</b> ${product.graduation}</p>
+          <p><b>Presentación:</b> ${product.presentation}</p>
+          <p><b>Precio:</b> <span style='color:#e67e22;font-size:1.2em;'>${product.price}</span></p>
+        </div>
+      </div>
+      <script>
+        document.querySelector('.product-modal__close').onclick = function() { window.close(); };
+        document.onkeydown = function(e) { if (e.key === 'Escape') window.close(); };
+      </script>
+    </body>
+    </html>`);
+  win.document.close();
+}
   // Botones agregar al carrito
   document.querySelectorAll('.btn-main[data-id]').forEach(btn => {
     btn.addEventListener('click', e => {
@@ -746,20 +1153,35 @@ function renderCart() {
   let total = 0;
   cartItems.innerHTML = '';
   cart.forEach(item => {
-    total += item.price * item.qty;
+    // Convertir el precio a número (eliminar $ y comas)
+    let priceNum = 0;
+    if (typeof item.price === 'string') {
+      priceNum = parseFloat(item.price.replace(/[$,]/g, ''));
+    } else {
+      priceNum = item.price;
+    }
+    total += priceNum * item.qty;
     const div = document.createElement('div');
     div.className = 'cart-item';
     div.innerHTML = `
       <img src="${item.image}" alt="${item.description}" style="width:60px;vertical-align:middle;" loading="lazy">
-      <span>${item.name} x${item.qty} - $${item.price} c/u = <b>$${item.price * item.qty}</b></span>
+      <span>${item.name} x${item.qty} - $${priceNum} c/u = <b>$${(priceNum * item.qty).toLocaleString('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2})}</b></span>
       <button class="filter__button" data-remove="${item.id}" style="margin-left:1rem;">🗑️</button>
     `;
     cartItems.appendChild(div);
   });
-  cartSummary.innerHTML = `<h3>Total: $${total}</h3><button id="empty-cart-btn" class="btn-main" style="margin-top:1em;">Vaciar carrito</button>`;
+  cartSummary.innerHTML = `<h3>Total: $${total.toLocaleString('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2})}</h3><button id="empty-cart-btn" class="btn-main" style="margin-top:1em;">Vaciar carrito</button>`;
   // Pedido para Formspree
-  const pedido = cart.map(item => `${item.name} x${item.qty} ($${item.price * item.qty})`).join(', ');
-  document.getElementById('pedido-input').value = pedido + ` | Total: $${total}`;
+  const pedido = cart.map(item => {
+    let priceNum = 0;
+    if (typeof item.price === 'string') {
+      priceNum = parseFloat(item.price.replace(/[$,]/g, ''));
+    } else {
+      priceNum = item.price;
+    }
+    return `${item.name} x${item.qty} ($${(priceNum * item.qty).toLocaleString('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2})})`;
+  }).join(', ');
+  document.getElementById('pedido-input').value = pedido + ` | Total: $${total.toLocaleString('es-AR', {minimumFractionDigits:2, maximumFractionDigits:2})}`;
   // Botones eliminar
   document.querySelectorAll('.filter__button[data-remove]').forEach(btn => {
     btn.addEventListener('click', e => removeFromCart(btn.getAttribute('data-remove')));
@@ -842,3 +1264,13 @@ if (document.getElementById('order-form')) {
     }
   });
 }
+// --- Encabezado fijo con transición suave ---
+function handleHeaderScroll() {
+  if (window.scrollY > 10) {
+    document.body.classList.add('scrolled');
+  } else {
+    document.body.classList.remove('scrolled');
+  }
+}
+window.addEventListener('scroll', handleHeaderScroll);
+document.addEventListener('DOMContentLoaded', handleHeaderScroll);

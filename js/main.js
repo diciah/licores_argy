@@ -21,8 +21,8 @@ const products = [
   flavor: "Original",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-new-style.jpg",
+  image: "images/vodkas/vodka-new-style.webp",
+  image_jpg: "images/vodkas/vodka-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -34,8 +34,8 @@ const products = [
   flavor: "Citrus",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-citrus-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-citrus-new-style.jpg",
+  image: "images/vodkas/vodka-citrus-new-style.webp",
+  image_jpg: "images/vodkas/vodka-citrus-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -47,8 +47,8 @@ const products = [
   flavor: "Frutos Rojos",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-frutos-rojos-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-frutos-rojos-new-style.jpg",
+  image: "images/vodkas/vodka-frutos-rojos-new-style.webp",
+  image_jpg: "images/vodkas/vodka-frutos-rojos-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -60,8 +60,8 @@ const products = [
   flavor: "Maracuya",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-maracuya-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-maracuya-new-style.jpg",
+  image: "images/vodkas/vodka-maracuya-new-style.webp",
+  image_jpg: "images/vodkas/vodka-maracuya-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -73,8 +73,8 @@ const products = [
   flavor: "Melon",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-melon-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-melon-new-style.jpg",
+  image: "images/vodkas/vodka-melon-new-style.webp",
+  image_jpg: "images/vodkas/vodka-melon-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -86,8 +86,8 @@ const products = [
   flavor: "Pera",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-pera-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-pera-new-style.jpg",
+  image: "images/vodkas/vodka-pera-new-style.webp",
+  image_jpg: "images/vodkas/vodka-pera-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -99,8 +99,8 @@ const products = [
   flavor: "Manzana Verde",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-manzana-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-manzana-new-style.jpg",
+  image: "images/vodkas/vodka-manzana-new-style.webp",
+  image_jpg: "images/vodkas/vodka-manzana-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -112,8 +112,8 @@ const products = [
   flavor: "Sandia",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-sandia-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-sandia-new-style.jpg",
+  image: "images/vodkas/vodka-sandia-new-style.webp",
+  image_jpg: "images/vodkas/vodka-sandia-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -125,8 +125,8 @@ const products = [
   flavor: "Arandano y Uva",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-arandanos-uva-new-style.webp",
-  image_jpg: "/images/vodkas/vodka-arandanos-uva-new-style.jpg",
+  image: "images/vodkas/vodka-arandanos-uva-new-style.webp",
+  image_jpg: "images/vodkas/vodka-arandanos-uva-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -138,8 +138,8 @@ const products = [
   flavor: "Original",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-new-style-evolution.webp",
-  image_jpg: "/images/vodkas/vodka-new-style-evolution.jpg",
+  image: "images/vodkas/vodka-new-style-evolution.webp",
+  image_jpg: "images/vodkas/vodka-new-style-evolution.jpg",
   price: "7,500.00"
 },
 {
@@ -151,8 +151,8 @@ const products = [
   flavor: "Mango",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka- mango-new-style-evolution.webp",
-  image_jpg: "/images/vodkas/vodka- mango-new-style-evolution.jpg",
+  image: "images/vodkas/vodka- mango-new-style-evolution.webp",
+  image_jpg: "images/vodkas/vodka- mango-new-style-evolution.jpg",
   price: "7,500.00"
 },
 {
@@ -164,8 +164,8 @@ const products = [
   flavor: "Frambuesa",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-raspbery-new-style-evolution.webp",
-  image_jpg: "/images/vodkas/vodka-raspbery-new-style-evolution.jpg",
+  image: "images/vodkas/vodka-raspbery-new-style-evolution.webp",
+  image_jpg: "images/vodkas/vodka-raspbery-new-style-evolution.jpg",
   price: "7,500.00"
 },
 {
@@ -177,8 +177,8 @@ const products = [
   flavor: "Tamarindo",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-tamarindo-new-style-evolotion.webp",
-  image_jpg: "/images/vodkas/vodka-tamarindo-new-style-evolotion.jpg",
+  image: "images/vodkas/vodka-tamarindo-new-style-evolotion.webp",
+  image_jpg: "images/vodkas/vodka-tamarindo-new-style-evolotion.jpg",
   price: "7,500.00"
 },
 {
@@ -190,8 +190,8 @@ const products = [
   flavor: "Yuzu",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vodkas/vodka-yuzu-new-style-evoloution.webp",
-  image_jpg: "/images/vodkas/vodka-yuzu-new-style-evoloution.jpg",
+  image: "images/vodkas/vodka-yuzu-new-style-evoloution.webp",
+  image_jpg: "images/vodkas/vodka-yuzu-new-style-evoloution.jpg",
   price: "7,500.00"
 },
 {
@@ -203,8 +203,8 @@ const products = [
   flavor: "Piña Colada",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-piña-colada-new-style.webp",
-  image_jpg: "/images/licores/licor-piña-colada-new-style.jpg",
+  image: "images/licores/licor-piña-colada-new-style.webp",
+  image_jpg: "images/licores/licor-piña-colada-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -216,8 +216,8 @@ const products = [
   flavor: "Chocolate",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-chocolate-new-style.webp",
-  image_jpg: "/images/licores/licor-chocolate-new-style.jpg",
+  image: "images/licores/licor-chocolate-new-style.webp",
+  image_jpg: "images/licores/licor-chocolate-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -229,8 +229,8 @@ const products = [
   flavor: "Dulce de Leche",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-dulce-de-leche-new-style.webp",
-  image_jpg: "/images/licores/licor-dulce-de-leche-new-style.jpg",
+  image: "images/licores/licor-dulce-de-leche-new-style.webp",
+  image_jpg: "images/licores/licor-dulce-de-leche-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -242,8 +242,8 @@ const products = [
   flavor: "Cafe al Cognac",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-cafe-cognac-new-style.webp",
-  image_jpg: "/images/licores/licor-cafe-cognac-new-style.jpg",
+  image: "images/licores/licor-cafe-cognac-new-style.webp",
+  image_jpg: "images/licores/licor-cafe-cognac-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -255,8 +255,8 @@ const products = [
   flavor: "Menta",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-menta-new-style.webp",
-  image_jpg: "/images/licores/licor-menta-new-style.jpg",
+  image: "images/licores/licor-menta-new-style.webp",
+  image_jpg: "images/licores/licor-menta-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -268,8 +268,8 @@ const products = [
   flavor: "Blue Curacao",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-blue-curacao-new-style.webp",
-  image_jpg: "/images/licores/licor-blue-curacao-new-style.jpg",
+  image: "images/licores/licor-blue-curacao-new-style.webp",
+  image_jpg: "images/licores/licor-blue-curacao-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -281,8 +281,8 @@ const products = [
   flavor: "Melon",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-melon-new-style.webp",
-  image_jpg: "/images/licores/licor-melon-new-style.jpg",
+  image: "images/licores/licor-melon-new-style.webp",
+  image_jpg: "images/licores/licor-melon-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -294,8 +294,8 @@ const products = [
   flavor: "Frutilla",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-frutilla-new-style.webp",
-  image_jpg: "/images/licores/licor-frutilla-new-style.jpg",
+  image: "images/licores/licor-frutilla-new-style.webp",
+  image_jpg: "images/licores/licor-frutilla-new-style.jpg",
   price: "7,500.00"
 },
 {
@@ -307,8 +307,8 @@ const products = [
   flavor: "Anis",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/licor-anis-san-vicente.webp",
-  image_jpg: "/images/licores/licor-anis-san-vicente.jpg",
+  image: "images/licores/licor-anis-san-vicente.webp",
+  image_jpg: "images/licores/licor-anis-san-vicente.jpg",
   price: "7,500.00"
 },
 {
@@ -320,8 +320,8 @@ const products = [
   flavor: "Malbec",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-malbec-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-malbec-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-malbec-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-malbec-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -333,8 +333,8 @@ const products = [
   flavor: "Cabernet",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -346,8 +346,8 @@ const products = [
   flavor: "Bonarda",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -359,8 +359,8 @@ const products = [
   flavor: "Blanco de Malbec",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -372,8 +372,8 @@ const products = [
   flavor: "Chardonnay",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -385,8 +385,8 @@ const products = [
   flavor: "Malbec Synergy",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-malbec-synergy-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-malbec-synergy-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-malbec-synergy-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-malbec-synergy-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -398,8 +398,8 @@ const products = [
   flavor: "Blanco Dulce Noveau",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -411,8 +411,8 @@ const products = [
   flavor: "Roble Malbec",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-malbec-gran-roble-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-malbec-gran-roble-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-malbec-gran-roble-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-malbec-gran-roble-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -424,8 +424,8 @@ const products = [
   flavor: "Roble Cabernet",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -437,8 +437,8 @@ const products = [
   flavor: "Roble Chardonnay",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.jpg",
   price: "7,500.00"
 },
 {
@@ -450,8 +450,8 @@ const products = [
   flavor: "MALBEC / SYRAH",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-malbec-sifonazo.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-malbec-sifonazo.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-malbec-sifonazo.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-malbec-sifonazo.jpg",
   price: "7,500.00"
 },
 {
@@ -463,8 +463,8 @@ const products = [
   flavor: "PEDRO GIMENEZ / CHENIN",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-blanco-sifonazo.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-blanco-sifonazo.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-blanco-sifonazo.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-blanco-sifonazo.jpg",
   price: "7,500.00"
 },
 {
@@ -476,8 +476,8 @@ const products = [
   flavor: "Tinto",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/reserva-de-los-andes/vino-tinto-taninos.webp",
-  image_jpg: "/images/vinos/reserva-de-los-andes/vino-tinto-taninos.jpg",
+  image: "images/vinos/reserva-de-los-andes/vino-tinto-taninos.webp",
+  image_jpg: "images/vinos/reserva-de-los-andes/vino-tinto-taninos.jpg",
   price: "7,500.00"
 },
 {
@@ -489,8 +489,8 @@ const products = [
   flavor: "Malbec",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/celador/vino-malbec-celador.webp",
-  image_jpg: "/images/vinos/celador/vino-malbec-celador.jpg",
+  image: "images/vinos/celador/vino-malbec-celador.webp",
+  image_jpg: "images/vinos/celador/vino-malbec-celador.jpg",
   price: "7,500.00"
 },
 {
@@ -502,8 +502,8 @@ const products = [
   flavor: "Cabernet Franc",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/celador/vino-cabernet-franc-celador.webp",
-  image_jpg: "/images/vinos/celador/vino-cabernet-franc-celador.jpg",
+  image: "images/vinos/celador/vino-cabernet-franc-celador.webp",
+  image_jpg: "images/vinos/celador/vino-cabernet-franc-celador.jpg",
   price: "7,500.00"
 },
 {
@@ -515,8 +515,8 @@ const products = [
   flavor: "Cabernet",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/celador/vino-cabernet-celador.webp",
-  image_jpg: "/images/vinos/celador/vino-cabernet-celador.jpg",
+  image: "images/vinos/celador/vino-cabernet-celador.webp",
+  image_jpg: "images/vinos/celador/vino-cabernet-celador.jpg",
   price: "$7,500.00"
 },
 {
@@ -528,8 +528,8 @@ const products = [
   flavor: "Chardonnay",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/celador/vino-chardonnay-celador.webp",
-  image_jpg: "/images/vinos/celador/vino-chardonnay-celador.jpg",
+  image: "images/vinos/celador/vino-chardonnay-celador.webp",
+  image_jpg: "images/vinos/celador/vino-chardonnay-celador.jpg",
   price: "$7,500.00"
 },
 {
@@ -541,8 +541,8 @@ const products = [
   flavor: "Malbec",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/don-juan-nahuel/vino-malbec-don-juan-nahuel.webp",
-  image_jpg: "/images/vinos/don-juan-nahuel/vino-malbec-don-juan-nahuel.jpg",
+  image: "images/vinos/don-juan-nahuel/vino-malbec-don-juan-nahuel.webp",
+  image_jpg: "images/vinos/don-juan-nahuel/vino-malbec-don-juan-nahuel.jpg",
   price: "$7,500.00"
 },
 {
@@ -554,8 +554,8 @@ const products = [
   flavor: "Cabernet Sauvignon",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/don-juan-nahuel/vino-cabernet-sauvignon-don-juan-nahuel.webp",
-  image_jpg: "/images/vinos/don-juan-nahuel/vino-cabernet_sauvignon-don-juan-nahuel.jpg",
+  image: "images/vinos/don-juan-nahuel/vino-cabernet-sauvignon-don-juan-nahuel.webp",
+  image_jpg: "images/vinos/don-juan-nahuel/vino-cabernet_sauvignon-don-juan-nahuel.jpg",
   price: "$7,500.00"
 },
 {
@@ -567,8 +567,8 @@ const products = [
   flavor: "Malbec",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/don-juan-nahuel/vino-malbec-reserva-2021-don-juan-nahuel.webp",
-  image_jpg: "/images/vinos/don-juan-nahuel/vino-malbec-reserva-2021-don-juan-nahuel.jpg",
+  image: "images/vinos/don-juan-nahuel/vino-malbec-reserva-2021-don-juan-nahuel.webp",
+  image_jpg: "images/vinos/don-juan-nahuel/vino-malbec-reserva-2021-don-juan-nahuel.jpg",
   price: "$7,500.00"
 },
 {
@@ -580,8 +580,8 @@ const products = [
   flavor: "Malbec / P.Verdot",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/djn/vino-tinto-gran-corte-DJN.webp",
-  image_jpg: "/images/vinos/djn/vino-tinto-gran-corte-DJN.jpg",
+  image: "images/vinos/djn/vino-tinto-gran-corte-DJN.webp",
+  image_jpg: "images/vinos/djn/vino-tinto-gran-corte-DJN.jpg",
   price: "$7,500.00"
 },
 {
@@ -593,8 +593,8 @@ const products = [
   flavor: "ENSAMBLE MALBEC-CABERNET-PETIT VERDOT",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.webpp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.jpgp",
+  image: "images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.webpp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.jpgp",
   price: "$7,500.00"
 },
 {
@@ -606,8 +606,8 @@ const products = [
   flavor: "ENSAMBLE SAUVIGNON BLANC  VIOGNER",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-blanco-ensamble-2019-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-blanco-ensamble-2019-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-blanco-ensamble-2019-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-blanco-ensamble-2019-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -619,8 +619,8 @@ const products = [
   flavor: "CANARI",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-canari-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-canari-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-canari-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-canari-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -632,8 +632,8 @@ const products = [
   flavor: "BLANCO DE MALBEC",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-blanco-malbec-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-blanco-malbec-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-blanco-malbec-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-blanco-malbec-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -645,8 +645,8 @@ const products = [
   flavor: "TANNAT",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-tannat-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-tannat-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-tannat-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-tannat-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -658,8 +658,8 @@ const products = [
   flavor: "CARMENERE",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -671,8 +671,8 @@ const products = [
   flavor: "GEWURZTRAMINER",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-gewurztraminer-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-gewurztraminer-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-gewurztraminer-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-gewurztraminer-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -684,8 +684,8 @@ const products = [
   flavor: "MIX VARIETALES",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -697,8 +697,8 @@ const products = [
   flavor: "CABERNET FRANC",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-cabernet-franc-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-cabernet-franc-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-cabernet-franc-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-cabernet-franc-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -710,8 +710,8 @@ const products = [
   flavor: "BONARDA",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-bonarda-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-bonarda-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-bonarda-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-bonarda-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -723,8 +723,8 @@ const products = [
   flavor: "BONARDA BONARDA",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.jpg",
   price: "$7,500.00"
 },
 {
@@ -736,8 +736,8 @@ const products = [
   flavor: "CABERNET SAUVIGNON",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.jpg",
   price: "7,500.00"
 },
 {
@@ -749,8 +749,8 @@ const products = [
   flavor: "MALBEC",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/vinos/callejon-de-las-brujas/vino-malbec-callejon-de-las-brujas.webp",
-  image_jpg: "/images/vinos/callejon-de-las-brujas/vino-malbec-callejon-de-las-brujas.jpg",
+  image: "images/vinos/callejon-de-las-brujas/vino-malbec-callejon-de-las-brujas.webp",
+  image_jpg: "images/vinos/callejon-de-las-brujas/vino-malbec-callejon-de-las-brujas.jpg",
   price: "7,500.00"
 },
 {
@@ -762,8 +762,8 @@ const products = [
   flavor: "Gin Seco",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/especialidades/gin-juniper.webp",
-  image_jpg: "/images/especialidades/gin-juniper.jpg",
+  image: "images/especialidades/gin-juniper.webp",
+  image_jpg: "images/especialidades/gin-juniper.jpg",
   price: "7,500.00"
 },
 {
@@ -775,8 +775,8 @@ const products = [
   flavor: "Licor de Limon / Limoncello",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/especialidades/licor-limon-limoncello-pietra-d-oro.webp",
-  image_jpg: "/images/especialidades/licor-limon-limoncello-pietra-d-oro.jpg",
+  image: "images/especialidades/licor-limon-limoncello-pietra-d-oro.webp",
+  image_jpg: "images/especialidades/licor-limon-limoncello-pietra-d-oro.jpg",
   price: "7,500.00"
 },
 {
@@ -788,8 +788,8 @@ const products = [
   flavor: "Aperitivo",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/aperitivos/aperitivo-manon.webp",
-  image_jpg: "/images/aperitivos/aperitivo-manon.jpg",
+  image: "images/aperitivos/aperitivo-manon.webp",
+  image_jpg: "images/aperitivos/aperitivo-manon.jpg",
   price: "7,500.00"
 },
 {
@@ -801,8 +801,8 @@ const products = [
   flavor: "Fernet",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/aperitivos/fernet-imperio.webp",
-  image_jpg: "/images/aperitivos/fernet-imperio.jpg",
+  image: "images/aperitivos/fernet-imperio.webp",
+  image_jpg: "images/aperitivos/fernet-imperio.jpg",
   price: "7,500.00"
 },
 {
@@ -814,8 +814,8 @@ const products = [
   flavor: "Bitter",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/aperitivos/aperitivo-bisleri-bitter.webp",
-  image_jpg: "/images/aperitivos/aperitivo-bisleri-bitter.jpg",
+  image: "images/aperitivos/aperitivo-bisleri-bitter.webp",
+  image_jpg: "images/aperitivos/aperitivo-bisleri-bitter.jpg",
   price: "7,500.00"
 },
 {
@@ -827,8 +827,8 @@ const products = [
   flavor: "Jarabe Granadina",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/licores/jarabe-granadina.webp",
-  image_jpg: "/images/licores/jarabe-granadina.jpg",
+  image: "images/licores/jarabe-granadina.webp",
+  image_jpg: "images/licores/jarabe-granadina.jpg",
   price: "7,500.00"
 },
 {
@@ -840,8 +840,8 @@ const products = [
   flavor: "WHISKY BLEND",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/whiskys/whisky-goucester-blended.webp",
-  image_jpg: "/images/whiskys/whisky-goucester-blended.jpg",
+  image: "images/whiskys/whisky-goucester-blended.webp",
+  image_jpg: "images/whiskys/whisky-goucester-blended.jpg",
   price: "7,500.00"
 },
 {
@@ -853,8 +853,8 @@ const products = [
   flavor: "WHISKY HONEY",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/whiskys/whysky-goucester-honey.webp",
-  image_jpg: "/images/whiskys/whysky-goucester-honey.jpg",
+  image: "images/whiskys/whysky-goucester-honey.webp",
+  image_jpg: "images/whiskys/whysky-goucester-honey.jpg",
   price: "7,500.00"
 },
 {
@@ -866,8 +866,8 @@ const products = [
   flavor: "WHISKY FIRE",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/whiskys/whysky-goucester-fire-29.webp",
-  image_jpg: "/images/whiskys/whysky-goucester-fire-29.jpg",
+  image: "images/whiskys/whysky-goucester-fire-29.webp",
+  image_jpg: "images/whiskys/whysky-goucester-fire-29.jpg",
   price: "7,500.00"
 },
 {
@@ -879,8 +879,8 @@ const products = [
   flavor: "Original",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/gins/gin-new-syle.webp",
-  image_jpg: "/images/gins/gin-new-syle.jpg",
+  image: "images/gins/gin-new-syle.webp",
+  image_jpg: "images/gins/gin-new-syle.jpg",
   price: "7,500.00"
 },
 {
@@ -892,8 +892,8 @@ const products = [
   flavor: "Rosa",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/gins/gin-new-syle-pink.webp",
-  image_jpg: "/images/gins/gin-new-syle-pink.jpg",
+  image: "images/gins/gin-new-syle-pink.webp",
+  image_jpg: "images/gins/gin-new-syle-pink.jpg",
   price: "7,500.00"
 },
 {
@@ -905,8 +905,8 @@ const products = [
   flavor: "Citrico",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/gins/gin-citric-newstyle.webp",
-  image_jpg: "/images/gins/gin-citric-newstyle.jpg",
+  image: "images/gins/gin-citric-newstyle.webp",
+  image_jpg: "images/gins/gin-citric-newstyle.jpg",
   price: "7,500.00"
 },
 {
@@ -918,8 +918,8 @@ const products = [
   flavor: "Picante",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "/images/gins/gin-new-style-spicy.webp",
-  image_jpg: "/images/gins/gin-new-style-spicy.jpg",
+  image: "images/gins/gin-new-style-spicy.webp",
+  image_jpg: "images/gins/gin-new-style-spicy.jpg",
   price: "7,500.00"
 }
 ];

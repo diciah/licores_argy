@@ -1,13 +1,13 @@
 // Carrusel de banner principal para Licores ARG
 // Lee las imágenes desde banners.csv (pre-cargadas en un array)
 const bannerImages = [
-  { src: '../images/vodkas/vodkas-evolution-new-style.jpg' },
-  { src: '/images/especialidades/linea-especialidades.jpg' },
-  { src: '/images/vodkas/vodkas-new-style.jpg' },
-  { src: '/images/whiskys/whiskys-goucester.jpg' },
-  { src: '/images/vinos/callejon-de-las-brujas/vinos-callejon-de-las-brujas.jpg' },
-  { src: '/images/licores/licores-new-style.jpg' },
-  { src: '/images/gins/gin-linea-new-style.jpg' }
+  { src: 'images/vodkas/vodkas-evolution-new-style.jpg' },
+  { src: 'images/especialidades/linea-especialidades.jpg' },
+  { src: 'images/vodkas/vodkas-new-style.jpg' },
+  { src: 'images/whiskys/whiskys-goucester.jpg' },
+  { src: 'images/vinos/callejon-de-las-brujas/vinos-callejon-de-las-brujas.jpg' },
+  { src: 'images/licores/licores-new-style.jpg' },
+  { src: 'images/gins/gin-linea-new-style.jpg' }
 ];
 
 const SLIDE_INTERVAL = 5000; // 5 segundos

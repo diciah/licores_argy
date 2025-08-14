@@ -1,8 +1,15 @@
-# 2025-08-03
-- Reemplazados todos los productos del sitio por los nuevos del archivo CSV proporcionado (71 productos actualizados).
 # Changelog
 
 This file documents all changes made to the project from July 24, 2025 onward.
+
+## [2025-08-13] Refactor Cart and UI Logic
+ - Moved all inline JavaScript from `index.html` to a new dedicated file: `js/cart-popup.js`.
+ - `index.html` now loads the cart logic from the external `js/cart-popup.js` file.
+ - This change separates behavior (JavaScript) from structure (HTML), improving code maintainability and reusability.
+
+## [2025-08-12] Mejoras visuales en cards de productos
+ - El botón "Agregar al carrito" ahora se muestra siempre alineado al pie del card, independientemente de la cantidad de texto en la descripción.
+ - Las imágenes de los productos dentro de los cards ahora se muestran centradas.
 
 ## [2025-08-04] Banner principal y carrusel
  - Agregado carrusel (slider) de imágenes en el banner principal usando imágenes de banners.csv (.jpg).
@@ -31,4 +38,3 @@ This file documents all changes made to the project from July 24, 2025 onward.
 ## [2025-07-30] Added a second identical 'Fernet Imperio' product to the catalog in js/main.js.
 
 ## [2025-08-03] Updated Fernet Imperio product info (id: fernet-1 and fernet-2) in main.js using CSV data: corrected category, description, and image paths for consistency with catalog and CSV.
-

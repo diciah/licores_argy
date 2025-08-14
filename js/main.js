@@ -333,8 +333,10 @@ const products = [
   flavor: "Cabernet",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.webp",
-  image_jpg: "images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.jpg",
+  //image: "/images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.webp",
+  //image_jpg: "/images/vinos/reserva-de-los-andes/vino-cabernet-reserva-de-los-andes.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
@@ -346,8 +348,10 @@ const products = [
   flavor: "Bonarda",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.webp",
-  image_jpg: "images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.jpg",
+  //image: "/images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.webp",
+  //image_jpg: "/images/vinos/reserva-de-los-andes/vino-bonarda-reserva-de-los-andes.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
@@ -359,8 +363,10 @@ const products = [
   flavor: "Blanco de Malbec",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.webp",
-  image_jpg: "images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.jpg",
+  //image: "/images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.webp",
+  //image_jpg: "/images/vinos/reserva-de-los-andes/vino-blanco-de-malbec-reserva-de-los-andes.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
@@ -372,8 +378,10 @@ const products = [
   flavor: "Chardonnay",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.webp",
-  image_jpg: "images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.jpg",
+  //image: "/images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.webp",
+  //image_jpg: "/images/vinos/reserva-de-los-andes/vino-chardonnay-reserva-de-los-andes.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
@@ -398,8 +406,10 @@ const products = [
   flavor: "Blanco Dulce Noveau",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.webp",
-  image_jpg: "images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.jpg",
+  //image: "/images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.webp",
+  //image_jpg: "/images/vinos/reserva-de-los-andes/vino-blanco-dulce-nouveau-reserva-de-los-andes.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
@@ -424,8 +434,10 @@ const products = [
   flavor: "Roble Cabernet",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.webp",
-  image_jpg: "images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.jpg",
+  //image: "/images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.webp",
+  //image_jpg: "/images/vinos/reserva-de-los-andes/vino-cabernet-gran-roble-reserva-de-los-andes.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
@@ -437,8 +449,10 @@ const products = [
   flavor: "Roble Chardonnay",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.webp",
-  image_jpg: "images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.jpg",
+  //image: "/images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.webp",
+  //image_jpg: "/images/vinos/reserva-de-los-andes/vino-chardonnay-gran-roble-reserva-de-los-andes.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
@@ -502,8 +516,10 @@ const products = [
   flavor: "Cabernet Franc",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/celador/vino-cabernet-franc-celador.webp",
-  image_jpg: "images/vinos/celador/vino-cabernet-franc-celador.jpg",
+  //image: "/images/vinos/celador/vino-cabernet-franc-celador.webp",
+  //image_jpg: "/images/vinos/celador/vino-cabernet-franc-celador.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
@@ -528,8 +544,10 @@ const products = [
   flavor: "Chardonnay",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/celador/vino-chardonnay-celador.webp",
-  image_jpg: "images/vinos/celador/vino-chardonnay-celador.jpg",
+  //image: "/images/vinos/celador/vino-chardonnay-celador.webp",
+  //image_jpg: "/images/vinos/celador/vino-chardonnay-celador.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "$7,500.00"
 },
 {
@@ -593,8 +611,10 @@ const products = [
   flavor: "ENSAMBLE MALBEC-CABERNET-PETIT VERDOT",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.webpp",
-  image_jpg: "images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.jpgp",
+  //image: "/images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.webpp",
+  //image_jpg: "/images/vinos/callejon-de-las-brujas/vino-tinto-ensamble-2022-callejon-de-las-brujas.jpgp",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "$7,500.00"
 },
 {
@@ -658,8 +678,10 @@ const products = [
   flavor: "CARMENERE",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.webp",
-  image_jpg: "images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.jpg",
+  //image: "/images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.webp",
+  //image_jpg: "/images/vinos/callejon-de-las-brujas/vino-carmenere-callejon-de-las-brujas.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "$7,500.00"
 },
 {
@@ -684,8 +706,10 @@ const products = [
   flavor: "MIX VARIETALES",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.webp",
-  image_jpg: "images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.jpg",
+  //image: "/images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.webp",
+  //image_jpg: "/images/vinos/callejon-de-las-brujas/vino-mix-varietales-callejon-de-las-brujas.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "$7,500.00"
 },
 {
@@ -723,8 +747,10 @@ const products = [
   flavor: "BONARDA BONARDA",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.webp",
-  image_jpg: "images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.jpg",
+  //image: "/images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.webp",
+  //image_jpg: "/images/vinos/callejon-de-las-brujas/vino-bonarda-bonarda-callejon-de-las-brujas.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "$7,500.00"
 },
 {
@@ -736,8 +762,10 @@ const products = [
   flavor: "CABERNET SAUVIGNON",
   graduation: "30º",
   presentation: "1000 ml",
-  image: "images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.webp",
-  image_jpg: "images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.jpg",
+  //image: "/images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.webp",
+  //image_jpg: "/images/vinos/callejon-de-las-brujas/vino-cabernet_suvignon-callejon-de-las-brujas.jpg",
+  image: "/images/sin-stock.webp",
+  image_jpg: "/images/sin-stock.jpg",
   price: "7,500.00"
 },
 {
